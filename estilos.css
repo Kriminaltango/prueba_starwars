@@ -6,7 +6,6 @@ background-attachment: fixed;
 background-repeat: no-repeat;
 background-color: 000;
 font-family: 'Roboto Mono', monospace;
-max-height: 1080;
 }
 * {
 	padding: 0;
@@ -92,19 +91,19 @@ li a {
 
 .articulos {
 	display: flex;
-	flex: 1 1 auto;
+	width: 100%;
 	margin-top: 15px;
 }
 
-.articulo1 {
-	flex-grow: 3;
+.articulos .articulo1 {
+	flex-grow: 1;
 	padding-left: 6px;
 	margin: 0px 4px;
 	border-right: 3px;
 	border-right-style: dotted;
 	border-color: red;
 }
-ul.art1 {
+.art1 {
 	line-height: 2;
 }
 .art2 {
@@ -113,16 +112,15 @@ ul.art1 {
 .art3 {
 	line-height: 2;
 }
-.articulo2 {
+.articulos .articulo2 {
 	flex-grow: 1;
-	flex-shrink: 2 1;
 	padding-left: 6px;
 	margin: 0px 4px;
 	border-right: 3px;
 	border-right-style: dotted;
 	border-color: blue;
 }
-.articulo3 {
+.articulos .articulo3 {
 	flex-grow: 1;
 	padding-left: 6px;
 	margin: 0px 4px;
