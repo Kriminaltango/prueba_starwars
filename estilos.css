@@ -90,14 +90,14 @@ li a {
 	text-decoration: none;
 	color: white; }
 
-.articulos {	
+.articulos {
+	display: flex;
+	flex: 1 1 auto;
 	margin-top: 15px;
 }
 
 .articulo1 {
-	flex-basis: 30%;
-	flex-grow: 1;
-	flex-shrink: 2 1;
+	flex-grow: 3;
 	padding-left: 6px;
 	margin: 0px 4px;
 	border-right: 3px;
@@ -114,7 +114,6 @@ ul.art1 {
 	line-height: 2;
 }
 .articulo2 {
-	flex-basis: 30%;
 	flex-grow: 1;
 	flex-shrink: 2 1;
 	padding-left: 6px;
@@ -124,9 +123,7 @@ ul.art1 {
 	border-color: blue;
 }
 .articulo3 {
-	flex-basis: 30%;
 	flex-grow: 1;
-	flex-shrink: 2 1;
 	padding-left: 6px;
 	margin: 0px 4px;
 
@@ -171,6 +168,6 @@ header{
  animation-name: un_efecto;
  animation-iteration-count: 1;
  animation-timing-function: linear;
- animation-duration: 4	s;
+ animation-duration: 4s;
  animation-delay: 0s;
 }
